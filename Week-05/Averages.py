@@ -1,0 +1,6 @@
+name = str(input('Whats your name: '))
+number_1 = eval(input('Enter first number: '))
+number_2 = eval(input('Enter second number: '))
+number_3 = eval(input('Enter third number: '))
+average = float((number_1 + number_2 + number_3)/3)
+print(f'Hello {name}!, The average of {number_1}, {number_2}, {number_3} is: {average:>6.2f} ')
